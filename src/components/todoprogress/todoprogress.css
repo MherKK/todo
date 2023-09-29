@@ -1,0 +1,20 @@
+.progress-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    color: rgb(92, 92, 92);
+    font-weight: 900;
+}
+
+.progress-container>button {
+    border: none;
+    height: 70%;
+    color: rgb(92, 92, 92);
+    font-weight: 900;
+    cursor: pointer;
+}
+
+.progress-container>button:hover {
+    background-color: silver;
+}

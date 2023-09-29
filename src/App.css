@@ -1,0 +1,21 @@
+.app-container {
+  border: 1px solid silver;
+  display: flex;
+  flex-direction: column;
+  width: 350px;
+}
+
+
+
+@media (min-width: 500px) {
+  .app-container {
+    width: 450px;
+  }
+}
+
+
+@media (min-width: 1000px) {
+  .app-container {
+    width: 750px;
+  }
+}

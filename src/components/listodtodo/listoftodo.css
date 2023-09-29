@@ -1,0 +1,25 @@
+.list-container>div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid silver;
+    font-size: 20px;
+    height: 80px;
+    margin: 0;
+    padding: 4px;
+    color: rgb(151, 151, 151);
+    font-weight: 800;
+
+}
+
+.list-container>div>button {
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.list-container>div>button:hover {
+    background-color: silver;
+    border-radius: 18px;
+}
